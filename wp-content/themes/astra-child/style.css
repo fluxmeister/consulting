@@ -99,3 +99,8 @@ Template: astra
     content: "\f063";
     color: #ffffff;
 }
+
+/* Left alignment of text in a footer text widget 1 */
+.footer-widget-area[data-section="sidebar-widgets-footer-widget-1"] .footer-widget-area-inner {
+    text-align: left;
+}
