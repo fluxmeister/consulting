@@ -1,0 +1,60 @@
+/**
+Theme Name: Consulting
+Author: Steve de Flux
+Author URI: https://vektorwebsolutions.com
+Description: Consulting is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Consulting comes with schema.org code integrated so search engines will love your site. Consulting offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by VVS Agency. Looking for a perfect base theme? Look no further. Consulting is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: consulting
+Template: astra
+*/
+
+/* Hide a big button in the navigation right */
+.ast-header-button-1 .ast-custom-button {
+    visibility: hidden !important;
+}
+/* Moving a bit right */
+/* .elementor-widget-image img, .entry-content h3 {
+    padding-left: 45px;
+} */
+/* Setting in the center */
+.elementor-309 .elementor-element.elementor-element-cc31416 .elementor-heading-title {
+    color: #f7f8f8;
+    text-align-last: center;
+}
+
+
+.elementor-heading-title {
+    text-align-last: center;
+}
+
+/* Latest News section on a homepage */
+#post-309 > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-093a580.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-cfd7409.elementor-widget__width-inherit.elementor-widget.elementor-widget-wp-widget-recent-posts {
+    text-align-last: center;
+    color: #ffffff;
+}
+#post-309 > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-093a580.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-cfd7409.elementor-widget__width-inherit.elementor-widget.elementor-widget-wp-widget-recent-posts ul {
+    list-style: none !important;
+}
+.latest-news-homepage {
+    text-align-last: center;
+}
+.latest-news-homepage li {
+    padding-right: 45px;
+}
+#latest-news span.post-date {
+    color: #ffffff !important;
+}
+#latest-news h5 {
+    visibility: hidden;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
