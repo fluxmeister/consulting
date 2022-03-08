@@ -51,12 +51,14 @@ Template: astra
 }
 
 .row {
+    padding-top: 100px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+    padding-bottom: 100px;
 }
 
 /* Solved centering of heading content on the homepage */
@@ -107,5 +109,10 @@ Template: astra
 
 /* White fonts in the widgets */
 .textwidget {
+    color: #ffffff;
+}
+
+/* White hower efect in text widgets */
+.elementor-widget-container .box h2:hover, p:hover, i:hover  {
     color: #ffffff;
 }
