@@ -58,3 +58,9 @@ Template: astra
     margin-right: -15px;
     margin-left: -15px;
 }
+
+/* Solved centering of heading content on the homepage */
+.elementor-309 .elementor-element.elementor-element-e0417fc > .elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    padding: 25% 10% 15% 10%;
+}
